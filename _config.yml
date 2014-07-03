@@ -1,0 +1,13 @@
+# Site settings
+title: Nicolas Evans
+email: me@nicolasevans.org
+description: "Coder, statistician, guitar / hockey player. Data Scientist at Shopify."
+baseurl: ""
+url: "http://nicolasevans.org"
+
+github_username: manygrams
+twitter_username: nicolas__evans
+
+# Build settings
+markdown: kramdown
+permalink: pretty

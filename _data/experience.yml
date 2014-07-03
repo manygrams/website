@@ -1,0 +1,62 @@
+---
+  -
+    name: "Education"
+    roles:
+      -
+        organization: "University of Ottawa"
+        role: "Honours Bachelor of Science; Double Major in Mathematics and Economics"
+        period: "September 2008 - April 2013"
+  -
+    name: "Work Experience"
+    roles:
+      -
+        organization: "Shopify"
+        role: "Data Scientist (Risk & Security Team)"
+        period: "November 2013 - Present"
+      -
+        organization: "Shopify"
+        role: "Data Analyst (Sales & Support Team)"
+        period: "April 2013 - November 2013"
+      -
+        organization: "Health Canada"
+        role: "Research Assistant"
+        period: "August 2012 - April 2013"
+      -
+        organization: "Statistics Canada"
+        role: "Statistical Research Officer"
+        period: "September 2010 - April 2011"
+  -
+    name: "Volunteer Experience"
+    roles:
+      -
+        organization: "Code For Kids"
+        role: "Developer"
+        period: "March 2014 - Present"
+      -
+        organization: "Code for Kids"
+        role: "Teacher"
+        period: "March 2014 - Present"
+      -
+        organization: "RBC Royal Bank Bluesfest"
+        role: "Green Team Volunteer"
+        period: "July 2012"
+      -
+        organization: "Cisco Ottawa Bluesfest"
+        role: "Surey Team Volunteer"
+        period: "July 2011"
+      -
+        organization: "Canadian Economics Association 2011 Conference"
+        role: "Volunteerx"
+        period: "June 2011"
+      -
+        organization: "Federal Political Party’s Headquarters"
+        role: "Correspondence and Membership Services Assistant"
+        period: "August 2010 - February 2011"
+      -
+        organization: "SFUO Foot Patrol Service"
+        role: "Dispatcher"
+        period: "October 2009 - December 2011"
+      -
+        organization: "Parliament Hill"
+        role: "Analyst"
+        period: "September 2009 - April 2011"
