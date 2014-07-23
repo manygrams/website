@@ -60,6 +60,19 @@ a:visited { color: #205caa; }
   z-index: 1;
 }
 
+.site-description-header {
+  display: block;
+  color: #333;
+  float: left;
+  line-height: 56px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.site-description-footer {
+  display: none;
+}
+
 .site-nav {
   float: right;
   line-height: 56px;
@@ -327,6 +340,8 @@ table { width: 80%; text-align: center; }
 
 
 @media screen and (max-width: 750px) {
+  .site-description-header { display: none; }
+  .site-description-footer { display: block; }
 
   .footer-col-1 { width: 50%; }
 
