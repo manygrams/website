@@ -4,6 +4,8 @@ title: Paint Colour and Junk Cars (Part 1, Correlation)
 date: '2013-03-09 20:46:39 -0500'
 ---
 
+__EDIT: When I exported my Wordpress site to Jekyll, I thought the images were exported as well :( Sadly, this is not the case. I'll copy the images over eventually, but they're stored on my old server, which I'll have to dig out of storage.__
+
 ### Introduction
 
 A friend referred me to an [article](http://www.npr.org/2013/03/07/173176488/the-big-data-revolution-how-number-crunchers-can-predict-our-lives) on using big data to find various correlations in the real world. One such interesting correlation is that orange cars tend to be less prone to breakdowns. I thought it would be interesting to attempt to recreate this with the data set that powers Carbitrage, so here I go.
