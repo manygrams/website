@@ -21,7 +21,7 @@ date_gmt: '2012-06-18 23:52:30 -0400'
 
 ### Associations
 {% for association in site.data.associations %}
-  {% capture name %}#### {{ association.name }}{% endcapture %}
+  {% capture name %}#### _{{ association.name }}_{% endcapture %}
   {{ name | markdownify }}
   {% for role in association.roles %}
     {% capture role_markdown %}
@@ -30,4 +30,23 @@ date_gmt: '2012-06-18 23:52:30 -0400'
     {% endcapture %}
     {{ role_markdown || markdownify }}
   {% endfor %}
+{% endfor %}
+
+### Talks
+{% for talk in site.data.talks %}
+  {% capture talk_markdown %}
+- __{{ talk.title }}__  
+  _{{ talk.event }}_  
+  {{ talk.date }}
+  {% endcapture %}
+  {{ talk_markdown || markdownify }}
+{% endfor %}
+
+### Conferences
+{% for conference in site.data.conferences %}
+  {% capture conference_markdown %}
+- __{{ conference.conference }}__  
+  {{ conference.date }}
+  {% endcapture %}
+  {{ conference_markdown || markdownify }}
 {% endfor %}
