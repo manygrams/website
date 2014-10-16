@@ -18,3 +18,16 @@ date_gmt: '2012-06-18 23:52:30 -0400'
     {{ role_markdown || markdownify }}
   {% endfor %}
 {% endfor %}
+
+### Associations
+{% for association in site.data.associations %}
+  {% capture name %}#### {{ association.name }}{% endcapture %}
+  {{ name | markdownify }}
+  {% for role in association.roles %}
+    {% capture role_markdown %}
+- _{{ role.role }}_  
+  {{ role.period }}
+    {% endcapture %}
+    {{ role_markdown || markdownify }}
+  {% endfor %}
+{% endfor %}

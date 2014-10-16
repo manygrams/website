@@ -1,32 +1,34 @@
 ---
-  Associations:
-    -
-      University of Ottawa Economics Student Association:
-        -
-          role: "Chief Electoral Officer"
-          period: "May 2013"
-        -
-          role: "Director of IT"
-          period: "October 2012 - April 2013"
-    -
-      Omega Theta Alpha Fraternity:
-        -
-          role: "Treasurer"
-          period: "May 2011 - April 2012"
-        -
-          role: "Philanthropy Chair"
-          period: "September 2010 - April 2011"
-        -
-          role: "IT Chair"
-          period: "March 2010 - April 2010"
-    -
-      uOttawa Campus Political Club:
-        -
-          role: "Vice-President of Finance"
-          period: "May 2010 - April 2011"
-        -
-          role: "Co-Chair (President)"
-          period: "May 2009 - April 2010"
-        -
-          role: "Vice-President of Internal Affairs"
-          period: "November 2008 - April 2009"
+  -
+    name: "University of Ottawa Economics Student Association"
+    roles:
+      -
+        role: "Chief Electoral Officer"
+        period: "May 2013"
+      -
+        role: "Director of IT"
+        period: "October 2012 - April 2013"
+  -
+    name: "Omega Theta Alpha Fraternity"
+    roles:
+      -
+        role: "Treasurer"
+        period: "May 2011 - April 2012"
+      -
+        role: "Philanthropy Chair"
+        period: "September 2010 - April 2011"
+      -
+        role: "IT Chair"
+        period: "March 2010 - April 2010"
+  -
+    name: "uOttawa Campus Political Club"
+    roles:
+      -
+        role: "Vice-President of Finance"
+        period: "May 2010 - April 2011"
+      -
+        role: "Co-Chair (President)"
+        period: "May 2009 - April 2010"
+      -
+        role: "Vice-President of Internal Affairs"
+        period: "November 2008 - April 2009"
