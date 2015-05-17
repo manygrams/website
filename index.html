@@ -1,14 +1,52 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% for type in site.data.experience %}
+  {% capture name %}### {{ type.name }}{% endcapture %}
+  {{ name | markdownify }}
+
+  {% for role in type.roles %}
+    {% capture role_markdown %}
+- __{{ role.organization  }}__  
+  _{{ role.role }}_  
+  {{ role.period }}
+    {% endcapture %}
+    {{ role_markdown || markdownify }}
+  {% endfor %}
+{% endfor %}
+
+{% capture title %}### Associations{% endcapture %}
+{{ title | markdownify }}
+{% for association in site.data.associations %}
+  {% capture name %}#### _{{ association.name }}_{% endcapture %}
+  {{ name | markdownify }}
+  {% for role in association.roles %}
+    {% capture role_markdown %}
+- _{{ role.role }}_  
+  {{ role.period }}
+    {% endcapture %}
+    {{ role_markdown || markdownify }}
+  {% endfor %}
+{% endfor %}
+
+{% capture title %}### Talks{% endcapture %}
+{{ title | markdownify }}
+{% for talk in site.data.talks %}
+  {% capture talk_markdown %}
+- __{{ talk.title }}__  
+  _{{ talk.event }}_  
+  {{ talk.date }}
+  {% endcapture %}
+  {{ talk_markdown || markdownify }}
+{% endfor %}
+
+{% capture title %}### Conferences{% endcapture %}
+{{ title | markdownify }}
+{% for conference in site.data.conferences %}
+  {% capture conference_markdown %}
+- __{{ conference.conference }}__  
+  {{ conference.date }}
+  {% endcapture %}
+  {{ conference_markdown || markdownify }}
+{% endfor %}
