@@ -11,12 +11,8 @@
     roles:
       -
         organization: "Shopify"
-        role: "Data Scientist (Risk & Security Team)"
-        period: "November 2013 - Present"
-      -
-        organization: "Shopify"
-        role: "Data Analyst (Sales & Support Team)"
-        period: "April 2013 - November 2013"
+        role: "Data Scientist"
+        period: "April 2013 - Present"
       -
         organization: "Health Canada"
         role: "Research Assistant - Intern"
@@ -31,11 +27,11 @@
       -
         organization: "Code For Kids"
         role: "Developer"
-        period: "March 2014 - Present"
+        period: "March 2014 - January 2015"
       -
         organization: "Code for Kids"
         role: "Teacher"
-        period: "March 2014 - Present"
+        period: "March 2014 - January 2015"
       -
         organization: "RBC Royal Bank Bluesfest"
         role: "Green Team Volunteer"
