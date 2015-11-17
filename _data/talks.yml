@@ -1,5 +1,9 @@
 ---
   -
+    title: "Realtime Risk Management Using Kafka, Python, and Spark Streaming"
+    event: "PyData NYC 2015"
+    date: "November 2015"
+  -
     title: "Workshop: Introduction to Ruby on Rails"
     event: "Hack the North 2014"
     date: "September 2014"

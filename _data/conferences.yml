@@ -1,6 +1,15 @@
 ---
   -
-    conference: "Hack the North 2014 (Hackathon)"
+    conference: "Dockercon EU 2015"
+    date: "November 2015"
+  -
+    conference: "PyData NYC 2015"
+    date: "November 2015"
+  -
+    conference: "Mentor @ Hack the North 2015 (Hackathon)"
+    date: "September 2015"
+  -
+    conference: "Mentor @ Hack the North 2014 (Hackathon)"
     date: "September 2014"
   -
     conference: "PyData Silicon Valley 2014"
